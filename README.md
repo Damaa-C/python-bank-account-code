@@ -106,4 +106,30 @@ print("Check balance: ", bank_account.check_balance)
 print("Update account: ", bank_account.update_account)
 ```
 # Output
-`
+```
+Deposit inside the bank
+Insufficient balance
+Invalid PIN
+Deposit successful
+Withdrawal successful
+Your balance is: 300.0
+Password changed successfully
+PIN changed successfully
+
+--- Account Details ---
+Account number: 1234567890
+Account holder: 'Emma Doe'
+Balance: 0.0
+Account number:  123456
+Account holder:  John Doe
+Deposit amount:  <bound method BankAccount.deposit of <__main__.BankAccount object at 0x7b18a924fe30>>
+Withdrawal amount:  <bound method BankAccount.withdraw of <__main__.BankAccount object at 0x7b18a924fe30>>
+Check balance:  <bound method BankAccount.check_balance of <__main__.BankAccount object at 0x7b18a924fe30>>
+Update account:  <bound method BankAccount.update_account of <__main__.BankAccount object at 0x7b18a924fe30>>
+````
+## How to Use
+
+1. Run each cell in the notebook sequentially.
+2. When prompted, enter your name to create an account.
+3. Use the menu to deposit, withdraw, or check your balance.
+4. Select "4" to exit the program.
