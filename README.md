@@ -1,4 +1,4 @@
-# Building-bank-account-using-python
+# Building a bank account using Python
 # Bank Account App
 
 This notebook contains a **Python OOP program** that simulates a simple bank account.  
